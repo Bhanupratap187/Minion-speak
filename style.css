@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 2rem;
+}
+
+textarea{
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    padding: 1rem;
+}
+
+#Btn{
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    height: 3rem;
+    color: #fff;
+    background-color: tomato;
+}
+.output-heading{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+#outputDiv{
+    border: 1px solid black;
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    padding: 1rem;
+}
+.header{
+    color: white;
+    background-color: tomato;
+    text-align: center;
+}
