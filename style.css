@@ -1,44 +1,60 @@
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
+body{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif
+}
+
+.nav-bar{
+    font-size: 2rem;
     padding: 2rem;
+    display: block;
+    text-align: center;
+    background-color: #00ffff;
+}
+
+main{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
 }
 
 textarea{
-    width: 80%;
-    height: 20vh;
+    box-sizing: border-box;
     display: block;
-    margin-top: 1rem;
-    margin-left: 6rem;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
     padding: 1rem;
 }
 
-#Btn{
-    width: 10rem;
+button{
+    background-color: #00ffff;
+    border: none;
     margin-top: 1rem;
-    margin-left: 6rem;
-    height: 3rem;
-    color: #fff;
-    background-color: tomato;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
 }
 .output-heading{
-    margin-top: 1rem;
-    margin-left: 6rem;
+    display: block;
+    margin-bottom: 1rem;
 }
 #outputDiv{
     border: 1px solid black;
-    width: 80%;
-    height: 20vh;
-    display: block;
-    margin-top: 1rem;
-    margin-left: 6rem;
     padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
 }
-.header{
-    color: white;
-    background-color: tomato;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #00ffff;
     text-align: center;
 }
